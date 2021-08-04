@@ -1,0 +1,80 @@
+/** @format */
+#navIcon {
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+#ytIcon {
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin-top: 0px;
+}
+#search {
+	width: 500px;
+	height: 30px;
+	margin-top: 60px;
+	margin-left: 50px;
+	font-size: 20px;
+	float: left;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+#btn {
+	width: 80px;
+	height: 38px;
+	font-size: 20px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 2px;
+	border: 3px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#mic {
+	width: 50px;
+	height: 36px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 10px;
+}
+#mail {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: 60px;
+	margin-right: 30px;
+}
+#not {
+	width: 40px;
+	height: 40px;
+	margin-top: 60px;
+	float: right;
+	margin-right: 30px;
+}
+#pop {
+	display: grid;
+	grid-template-columns: repeat(4, 24%);
+
+	grid-gap: 10px;
+	clear: both;
+}
+#pop iframe {
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 5px;
+}
+#videos {
+	display: grid;
+	grid-template-columns: repeat(4, 24%);
+
+	grid-gap: 10px;
+	clear: both;
+}
+#videos iframe {
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 5px;
+}
